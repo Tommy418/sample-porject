@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import ScrollReveal from 'scrollreveal';
+import 'colormyar/css/pdf.css'
+// import 'Cus.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router>
+
     <App />
+    </Router>
   </React.StrictMode>
 );
 
